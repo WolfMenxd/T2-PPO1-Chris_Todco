@@ -1,0 +1,13 @@
+@model POOI_T2_Todco.Models.Alumno
+@{ ViewBag.Title = "Agregar alumno"; }
+<h2>Agregar alumno</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    @Html.Partial("_FormularioAlumno", Model)
+    <button type="submit">Guardar</button>
+}
+<p>@Html.ActionLink("Volver al listado", "Index")</p>
+@section scripts { @Scripts.Render("~/bundles/jqueryval") }
+

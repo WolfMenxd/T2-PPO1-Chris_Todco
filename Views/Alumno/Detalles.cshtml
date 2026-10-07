@@ -1,0 +1,12 @@
+@model POOI_T2_Todco.Models.Alumno
+@{ ViewBag.Title = "Detalles del alumno"; }
+<h2>Detalles del alumno</h2>
+<dl>
+    <dt>DNI</dt><dd>@Model.Dni</dd>
+    <dt>Nombres</dt><dd>@Model.Nombres</dd>
+    <dt>Apellidos</dt><dd>@Model.Apellidos</dd>
+    <dt>Carrera</dt><dd>@Model.Carrera</dd>
+    <dt>Ciclo</dt><dd>@Model.Ciclo</dd>
+</dl>
+<p>@Html.ActionLink("Actualizar", "Actualizar", new { dni = Model.Dni }) | @Html.ActionLink("Volver al listado", "Index")</p>
+

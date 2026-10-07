@@ -1,0 +1,27 @@
+@model POOI_T2_Todco.Models.Alumno
+<div>
+    @Html.LabelFor(m => m.Dni)
+    @Html.TextBoxFor(m => m.Dni, new { maxlength = "8" })
+    @Html.ValidationMessageFor(m => m.Dni)
+</div>
+<div>
+    @Html.LabelFor(m => m.Nombres)
+    @Html.TextBoxFor(m => m.Nombres)
+    @Html.ValidationMessageFor(m => m.Nombres)
+</div>
+<div>
+    @Html.LabelFor(m => m.Apellidos)
+    @Html.TextBoxFor(m => m.Apellidos)
+    @Html.ValidationMessageFor(m => m.Apellidos)
+</div>
+<div>
+    @Html.LabelFor(m => m.Carrera)
+    @Html.TextBoxFor(m => m.Carrera)
+    @Html.ValidationMessageFor(m => m.Carrera)
+</div>
+<div>
+    @Html.LabelFor(m => m.Ciclo)
+    @Html.TextBoxFor(m => m.Ciclo)
+    @Html.ValidationMessageFor(m => m.Ciclo)
+</div>
+

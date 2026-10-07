@@ -1,0 +1,32 @@
+@model POOI_T2_Todco.Models.Alumno[]
+@{ ViewBag.Title = "Alumnos"; }
+<h2>Registro de alumnos</h2>
+<p>@Html.ActionLink("Agregar alumno", "Agregar", null, new { @class = "btn" })</p>
+@if (Model.Length == 0)
+{
+    <p>Aún no hay alumnos registrados.</p>
+}
+else
+{
+<table>
+    <thead><tr><th>DNI</th><th>Nombres</th><th>Apellidos</th><th>Carrera</th><th>Ciclo</th><th>Acciones</th></tr></thead>
+    <tbody>
+    @foreach (var alumno in Model)
+    {
+        <tr>
+            <td>@alumno.Dni</td><td>@alumno.Nombres</td><td>@alumno.Apellidos</td><td>@alumno.Carrera</td><td>@alumno.Ciclo</td>
+            <td>
+                @Html.ActionLink("Detalles", "Detalles", new { dni = alumno.Dni }) |
+                @Html.ActionLink("Actualizar", "Actualizar", new { dni = alumno.Dni }) |
+                @using (Html.BeginForm("Eliminar", "Alumno", new { dni = alumno.Dni }, FormMethod.Post, new { style = "display:inline" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <button type="submit" onclick="return confirm('¿Eliminar este alumno?');">Eliminar</button>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+}
+

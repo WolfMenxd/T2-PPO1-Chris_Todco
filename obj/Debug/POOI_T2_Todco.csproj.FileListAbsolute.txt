@@ -1,0 +1,11 @@
+C:\Users\Administrador\Documents\Codex\2026-10-06\es\outputs\POOI_T2_Todco\obj\Debug\POOI_T2_Todco.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\Codex\2026-10-06\es\outputs\POOI_T2_Todco\obj\Debug\POOI_T2_Todco.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\Codex\2026-10-06\es\outputs\POOI_T2_Todco\bin\POOI_T2_Todco.dll
+C:\Users\Administrador\Documents\Codex\2026-10-06\es\outputs\POOI_T2_Todco\bin\POOI_T2_Todco.pdb
+C:\Users\Administrador\Documents\Codex\2026-10-06\es\outputs\POOI_T2_Todco\bin\Newtonsoft.Json.dll
+C:\Users\Administrador\Documents\Codex\2026-10-06\es\outputs\POOI_T2_Todco\bin\System.Web.Mvc.dll
+C:\Users\Administrador\Documents\Codex\2026-10-06\es\outputs\POOI_T2_Todco\bin\System.Web.Mvc.xml
+C:\Users\Administrador\Documents\Codex\2026-10-06\es\outputs\POOI_T2_Todco\bin\Newtonsoft.Json.xml
+C:\Users\Administrador\Documents\Codex\2026-10-06\es\outputs\POOI_T2_Todco\obj\Debug\POOI_T2_.9F67B767.Up2Date
+C:\Users\Administrador\Documents\Codex\2026-10-06\es\outputs\POOI_T2_Todco\obj\Debug\POOI_T2_Todco.dll
+C:\Users\Administrador\Documents\Codex\2026-10-06\es\outputs\POOI_T2_Todco\obj\Debug\POOI_T2_Todco.pdb
